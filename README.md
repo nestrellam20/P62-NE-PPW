@@ -4,7 +4,7 @@
 ## Carrera de Ingenieria en Ciencias de la Computación
 ## Nathalie Estrella, nestrellam@est.ups.edu.ec
 
-##Curso de programacion y plataformas web
+## Curso de programacion y plataformas web
 
 -HTML
 -CSS2 y CSS3
