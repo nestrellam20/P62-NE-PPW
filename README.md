@@ -6,6 +6,6 @@
 
 ## Curso de programacion y plataformas web
 
--HTML
--CSS2 y CSS3
--JavaScript
+- HTML
+- CSS2 y CSS3
+- JavaScript
