@@ -5,12 +5,15 @@
 .container {
     display: flex;
     flex-direction: row;   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .item {
 
     border: 1px dotted lightcoral;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 10px;
 }
 
