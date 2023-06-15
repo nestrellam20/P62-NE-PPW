@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;   
+}
+
+.item {
+
+    border: 1px dotted lightcoral;
+    padding: 10px;
+    margin: 10px;
+}
+

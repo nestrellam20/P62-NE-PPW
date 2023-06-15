@@ -18,7 +18,7 @@
 
 .header {
     grid-area: header;
-    background-color: orangered;
+    background-color: rgba(240, 104, 54, 0.938);
 }
 
 .left {
