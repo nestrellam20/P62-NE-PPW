@@ -4,8 +4,8 @@
 
 .container {
     display: grid;
-    grid-template: 150px 1fr 50px / 200px 1fr;
-    grid-template-areas: "left header header" "left content right" "footer footer";
+    grid-template: 200px 1fr 200px / 325px 1fr 325px;
+    grid-template-areas: "left header header" "left content right" "footer footer right";
     grid-gap: 5px;
     height: 100vh;
 }
@@ -18,24 +18,25 @@
 
 .header {
     grid-area: header;
+    background-color: orangered;
 }
 
 .left {
     grid-area: left;
-    background-color: beige;
+    background-color: lightgrey;
 }
 
-
-.content {
-    grid-area: content;
-}
-
-.right {
+.right{
     grid-area: right;
     background-color: black;
 }
 
+.content {
+    grid-area: content;
+    background-color: green;
+}
 
 .footer {
     grid-area: footer;
+    background-color: yellow;
 }
