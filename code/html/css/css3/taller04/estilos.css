@@ -5,13 +5,13 @@
 .container {
     display: grid;
     grid-template: 150px 1fr 50px / 200px 1fr;
-    grid-template-areas: "header header" "left content" "footer footer";
+    grid-template-areas: "left header header" "left content right" "footer footer";
     grid-gap: 5px;
     height: 100vh;
 }
 
 .item {
-    background-color: rgb(30, 221, 255);
+    background-color: dodgerblue;
     padding: 10px;
     border: 1px solid black;
 }
@@ -22,11 +22,19 @@
 
 .left {
     grid-area: left;
+    background-color: beige;
 }
+
 
 .content {
     grid-area: content;
 }
+
+.right {
+    grid-area: right;
+    background-color: black;
+}
+
 
 .footer {
     grid-area: footer;
