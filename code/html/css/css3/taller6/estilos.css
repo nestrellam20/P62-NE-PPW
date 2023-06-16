@@ -10,10 +10,35 @@
     height: 100vh;
 }
 
-.item {
+.item1 {
 
     border: 1px dotted lightcoral;
     padding: 10px 20px;
     margin: 10px;
 }
 
+.item2 {
+
+    border: 1px dotted lightcoral;
+    padding: 50px 20px;
+    margin: 10px;
+}
+.item3 {
+
+    border: 1px dotted lightcoral;
+    padding: 40px 20px;
+    margin: 10px;
+}
+
+.item4 {
+
+    border: 1px dotted lightcoral;
+    padding: 60px 20px;
+    margin: 10px;
+}
+.item5 {
+
+    border: 1px dotted lightcoral;
+    padding: 30px 20px;
+    margin: 10px;
+}
