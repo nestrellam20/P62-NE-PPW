@@ -1,4 +1,7 @@
-
+p {
+    float: left;
+    
+}
 .limpiar {
     clear: both;
 }
