@@ -1,11 +1,11 @@
-function cargar_elemento() {
-    document.getElementById('figura')
-    .style.display="block"
-    document.getElementById('eliminar_elemento')
-    .style.display="none"
-}
+function mostrarImagen() {
+    var img = document.getElementById("imagen");
+    img.src = "img/batux.png";
+    img.style.display = "block";
+  }
 
-function eliminar_elemento() {
-    var container = document.getElementById('container')
-    container.removeChild(container.lastElementChild)
-}
+  function eliminarImagen() {
+    var img = document.getElementById("imagen");
+    img.style.display = "none";
+    img.src = "";
+  }
