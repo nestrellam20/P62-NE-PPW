@@ -89,7 +89,8 @@ a:active.menu{
     width: 500px;
     height: 250px;
     gap: 0px;
-   
+    text-align: center;
+    border: 1px solid black;
     
  }
   #item-0 {
