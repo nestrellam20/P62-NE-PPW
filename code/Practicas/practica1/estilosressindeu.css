@@ -92,11 +92,12 @@ a:active.menu{
     text-align: center;
     justify-content: center;
     border: 1px solid black;
+    vertical-align: middle;
     
  }
   #item-0 {
 
-    background-color: #9FEBDD; 
+    background-color: white; 
     grid-row-start: 1;
     grid-column-start: 3;
  
@@ -107,7 +108,7 @@ a:active.menu{
  }
  #item-1 {
  
-    background-color: #CE98BD; 
+    background-color: #0f0; 
     grid-row-start: 1;
     grid-column-start: 4;
  
@@ -118,7 +119,7 @@ a:active.menu{
  }
  #item-2 {
  
-    background-color: #B76E8B; 
+    background-color: #0f0; 
     grid-row-start: 2;
     grid-column-start: 1;
  
@@ -129,7 +130,7 @@ a:active.menu{
  }
  #item-3 {
  
-    background-color: #DDCBE7; 
+    background-color: #0f0; 
     grid-row-start: 3;
     grid-column-start: 1;
  
@@ -140,7 +141,7 @@ a:active.menu{
  }
  #item-4 {
  
-    background-color: #DF9DBF; 
+    background-color: white; 
     grid-row-start: 4;
     grid-column-start: 1;
  
@@ -151,7 +152,7 @@ a:active.menu{
  }
  #item-5 {
  
-    background-color: #775DF7; 
+    background-color: #0f0; 
     grid-row-start: 5;
     grid-column-start: 1;
  
@@ -162,7 +163,7 @@ a:active.menu{
  }
  #item-6 {
  
-    background-color: #D7C596; 
+    background-color: white; 
     grid-row-start: 1;
     grid-column-start: 5;
  
@@ -173,7 +174,7 @@ a:active.menu{
  }
  #item-7 {
  
-    background-color: #DB75DB; 
+    background-color: #0f0; 
     grid-row-start: 1;
     grid-column-start: 6;
  
@@ -184,7 +185,7 @@ a:active.menu{
  }
  #item-8 {
  
-    background-color: #BB9D95; 
+    background-color: #0f0; 
     grid-row-start: 1;
     grid-column-start: 7;
  
@@ -195,7 +196,7 @@ a:active.menu{
  }
  #item-9 {
  
-    background-color: #EEDEC5; 
+    background-color: #0f0; 
     grid-row-start: 1;
     grid-column-start: 8;
  
@@ -206,7 +207,7 @@ a:active.menu{
  }
  #item-10 {
  
-    background-color: #87DDBF; 
+    background-color: #0f0; 
     grid-row-start: 2;
     grid-column-start: 10;
  
@@ -217,7 +218,7 @@ a:active.menu{
  }
  #item-11 {
  
-    background-color: #7DBBD9; 
+    background-color: white; 
     grid-row-start: 3;
     grid-column-start: 10;
  
@@ -228,7 +229,7 @@ a:active.menu{
  }
  #item-12 {
  
-    background-color: #85AFAD; 
+    background-color: #0f0; 
     grid-row-start: 4;
     grid-column-start: 10;
  
@@ -239,7 +240,7 @@ a:active.menu{
  }
  #item-13 {
  
-    background-color: #7759B5; 
+    background-color: #0f0; 
     grid-row-start: 5;
     grid-column-start: 10;
  
@@ -250,7 +251,7 @@ a:active.menu{
  }
  #item-14 {
  
-    background-color: #759B9A; 
+    background-color: white; 
     grid-row-start: 6;
     grid-column-start: 4;
  
@@ -261,7 +262,7 @@ a:active.menu{
  }
  #item-15 {
  
-    background-color: #8DFA9C; 
+    background-color: #0f0; 
     grid-row-start: 6;
     grid-column-start: 5;
  
@@ -272,7 +273,7 @@ a:active.menu{
  }
  #item-16 {
  
-    background-color: #AB699B; 
+    background-color: white; 
     grid-row-start: 6;
     grid-column-start: 6;
  
@@ -283,7 +284,7 @@ a:active.menu{
  }
  #item-17 {
  
-    background-color: #6ABEBD; 
+    background-color: white; 
     grid-row-start: 6;
     grid-column-start: 7;
  
@@ -294,7 +295,7 @@ a:active.menu{
  }
  #item-18 {
  
-    background-color: #B8EEE7; 
+    background-color: red; 
     grid-row-start: 6;
     grid-column-start: 8;
  
@@ -305,7 +306,7 @@ a:active.menu{
  }
  #item-19 {
  
-    background-color: #7E7F9D; 
+    background-color: #006800; 
     grid-row-start: 7;
     grid-column-start: 3;
  
@@ -316,7 +317,7 @@ a:active.menu{
  }
  #item-20 {
  
-    background-color: #F5FB5A; 
+    background-color: red; 
     grid-row-start: 3;
     grid-column-start: 5;
  
@@ -327,7 +328,7 @@ a:active.menu{
  }
  #item-21 {
  
-    background-color: #9BF9A8; 
+    background-color: #0f0; 
     grid-row-start: 3;
     grid-column-start: 6;
  
@@ -338,7 +339,7 @@ a:active.menu{
  }
  #item-22 {
  
-    background-color: #DD85BA; 
+    background-color: #0f0; 
     grid-row-start: 3;
     grid-column-start: 7;
  
@@ -349,7 +350,7 @@ a:active.menu{
  }
  #item-23 {
  
-    background-color: #BBD8E8; 
+    background-color: #0f0; 
     grid-row-start: 3;
     grid-column-start: 8;
  
@@ -360,7 +361,7 @@ a:active.menu{
  }
  #item-24 {
  
-    background-color: #DCBC6D; 
+    background-color: white; 
     grid-row-start: 3;
     grid-column-start: 4;
  
