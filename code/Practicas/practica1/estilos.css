@@ -92,6 +92,7 @@ a:active.menu{
     text-align: center;
     justify-content: center;
     border: 1px solid black;
+    align-items: center;
     
  }
   #item-0 {
@@ -369,3 +370,8 @@ a:active.menu{
     border: 1px solid black;
  }
  
+ .caja7 h3 {
+   position: absolute;
+   top: 525px;
+   left: 572px;
+}
