@@ -60,6 +60,7 @@ a:active.menu{
     display:flex;
     align-items: center;
     justify-content: center;
+    text-align: right;
 }
 
 .item-form {
@@ -105,6 +106,7 @@ a:active.menu{
     grid-row-end: 2;
     grid-column-end: 4;
     border: 1px solid black;
+    text-align: center;
     
  }
  #item-1 {
@@ -371,3 +373,17 @@ a:active.menu{
     border: 1px solid black;
  }
  
+ .caja7 h3 {
+   position: absolute;
+   top: 525px;
+   left: 572px;
+}
+.garita {
+   background-color: #006800;
+   width: 100px;
+   height: 50px;
+   position: absolute;
+   top: 550px;
+   left: 550px;
+   border: 1px solid black;
+}
