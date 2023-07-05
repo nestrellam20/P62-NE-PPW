@@ -37,7 +37,6 @@ a:active.menu{
 }
 
 
-
 .item {
    background-color: rgb(30, 144, 255);
    padding: 10px;
@@ -111,7 +110,7 @@ a:active.menu{
 }
  #item-0 {
 
-   background-color: white; 
+   background-color: yellow; 
    grid-row-start: 1;
    grid-column-start: 3;
    grid-row-end: 2;
@@ -132,7 +131,7 @@ a:active.menu{
 }
 #item-2 {
 
-   background-color: white; 
+   background-color:white; 
    grid-row-start: 2;
    grid-column-start: 1;
 
@@ -143,7 +142,7 @@ a:active.menu{
 }
 #item-3 {
 
-   background-color: white; 
+   background-color: white;  
    grid-row-start: 3;
    grid-column-start: 1;
 
@@ -154,7 +153,7 @@ a:active.menu{
 }
 #item-4 {
 
-   background-color: white; 
+   background-color: yellow; 
    grid-row-start: 4;
    grid-column-start: 1;
 
@@ -176,7 +175,7 @@ a:active.menu{
 }
 #item-6 {
 
-   background-color: white; 
+   background-color: yellow; 
    grid-row-start: 1;
    grid-column-start: 5;
 
@@ -198,7 +197,7 @@ a:active.menu{
 }
 #item-8 {
 
-   background-color: white;  
+   background-color: white; 
    grid-row-start: 1;
    grid-column-start: 7;
 
@@ -231,7 +230,7 @@ a:active.menu{
 }
 #item-11 {
 
-   background-color: #b3b3b3; 
+   background-color: white; 
    grid-row-start: 3;
    grid-column-start: 10;
 
@@ -264,7 +263,7 @@ a:active.menu{
 }
 #item-14 {
 
-   background-color: #b3b3b3; 
+   background-color: white; 
    grid-row-start: 6;
    grid-column-start: 4;
 
@@ -286,7 +285,7 @@ a:active.menu{
 }
 #item-16 {
 
-   background-color: white; 
+   background-color: #fcee21; 
    grid-row-start: 6;
    grid-column-start: 6;
 
@@ -297,7 +296,7 @@ a:active.menu{
 }
 #item-17 {
 
-   background-color: white; 
+   background-color: yellow; 
    grid-row-start: 6;
    grid-column-start: 7;
 
@@ -308,7 +307,7 @@ a:active.menu{
 }
 #item-18 {
 
-   background-color: white; 
+   background-color: red; 
    grid-row-start: 6;
    grid-column-start: 8;
 
@@ -320,7 +319,7 @@ a:active.menu{
 
 #item-20 {
 
-   background-color: white; 
+   background-color: red; 
    grid-row-start: 3;
    grid-column-start: 5;
 
@@ -331,7 +330,7 @@ a:active.menu{
 }
 #item-21 {
 
-   background-color: white;  
+   background-color: white; 
    grid-row-start: 3;
    grid-column-start: 6;
 
@@ -353,7 +352,7 @@ a:active.menu{
 }
 #item-23 {
 
-   background-color: white;  
+   background-color: white; 
    grid-row-start: 3;
    grid-column-start: 8;
 
@@ -373,20 +372,19 @@ a:active.menu{
 }
 
 .caja7 h3 {
-   position: absolute;
-   top: 260px;
-   left: 81px;
- }
- .garita {
-   background-color: #006800;
-   width: 50px;
-   height: 25px;
-   position: absolute;
-   top: 280px;
-   left: 82px;
-   border: 1px solid black;
- }
-
+  position: absolute;
+  top: 260px;
+  left: 81px;
+}
+.garita {
+  background-color: #006800;
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  top: 280px;
+  left: 82px;
+  border: 1px solid black;
+}
 h1 {
    text-align: center;
    justify-content: center;
