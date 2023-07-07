@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template: 150px 1fr 50px / 250px 1fr 250px;
+    grid-template-areas: "header header header" "left content content" "footer footer footer";
+    grid-gap: 5px;
+    height: 100vh;
+}
+.menu {
+   
+    margin: 5px;
+    border: 1px solid black;
+    padding: 15px 5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #b08600;
+}
+
+a.menu{
+    background-color: white;
+}
+
+a:hover.menu{
+    background-color:rgb(189, 224, 254);
+}
+
+a:active.menu{
+    background-color: rgb(162, 210, 255);
+    color: white;
+}
+
+
+
+.item {
+    background-color: rgb(30, 144, 255);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.header {
+    grid-area: header;
+    background-color: #ffc000;
+}
+
+.left {
+    grid-area: left;
+    background-color: #ffc000;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content {
+    grid-area: content;
+    background-color: #fff2cc;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-form {
+    width: 400px;
+    margin: 5px;
+}
+.item-form-label {
+    display: block;
+    float: left;
+    width: 200px;
+    text-align: right;
+    margin-left: 20px;
+    margin: 5px;
+}
+.footer {
+    grid-area: footer;
+    background-color:  #ffc000;
+}
+
+
+.opcion {
+    border: 2px solid black ;
+    position: absolute;
+    top: 150px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+
+#opcion1 {
+    background-color: #d9d9d9;
+    z-index: 1;
+}
+
+#opcion2 {
+    background-color: #d9d9d9;
+    z-index: 2;
+    
+}
+
+button{
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+button2{
+    border: 2px solid black ;
+    border-radius: 5px;
+    background-color: #70ad47;
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS3 - Grids</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <section class="container">
+            <div class="item header"></div>
+
+            <div class="item left">
+                <a class="menu" href="#">Libro</a>
+                <a class="menu" href="">Editorial</a>
+            </div>
+            <div class="item content">
+                <div class="opcion" id="opcion1">
+                    <h1>Ingreso del libro</h1>
+                    <div class="item-form">
+                        <label class="item-form-label" >ISBN: </label>
+                        <input type="text" value=""/>
+                    </div>
+                    <div class="item-form">
+                        <label class="item-form-label">Titulo: </label>
+                        <input type="text" value=""/>
+                    </div>
+                    <div class="item-form">
+                        <label class="item-form-label">Subtitulo: </label>
+                        <input type="text" value=""/>
+                    </div>
+                    <div class="item-form">
+                        <label class="item-form-label">Año publicación: </label>
+                        <input type="text" value=""/>
+                    </div>
+                    <div class="item-form">
+                        <label class="item-form-label">&nbsp;</label>
+                        <button onclick="seleccionar_opcion(1)">Cancelar</button>
+                        <button2 onclick="seleccionar_opcion(2)">Continuar</button2>
+                    </div>   
+                <div class="opcion" id="opcion2">
+                    <h1>Ingreso de la Editorial del Libro</h1>
+                        <div class="item-form">
+                            <label class="item-form-label" >Titulo: </label>
+                            <input type="text" value=""/>
+                        </div>
+                        <div class="item-form">
+                            <label class="item-form-label">Nombre: </label>
+                            <input type="text" value=""/>
+                        </div>
+                        <div class="item-form">
+                            <label class="item-form-label">Domicilio: </label>
+                            <input type="text" value=""/>
+                        </div>
+                        <div class="item-form">
+                            <label class="item-form-label">&nbsp;</label>
+                            <button>Guardar</button>
+                            <button2>Cancelar</button2>   
+                </div> 
+    
+            </div>
+        </div>
+    </div>
+
+            <div class="item footer"></div>
+        </section>
+    </body>
+</html>
