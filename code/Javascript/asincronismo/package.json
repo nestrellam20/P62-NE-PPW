@@ -1,7 +1,7 @@
 {
   "name": "asincronismo",
   "version": "1.0.0",
-  "description": "Gestión del asincronismo",
+  "description": "Gestion del asincronismo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,6 @@
     "asynchronism",
     "managment"
   ],
-  "author": "Kleber González",
+  "author": "Guillermo Pizarro",
   "license": "GPL-3.0"
 }
